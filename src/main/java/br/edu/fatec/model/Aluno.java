@@ -7,6 +7,8 @@ public class Aluno {
 	private String nome;
 	
 	private String curso;
+	
+	private String cpf;
 
 	public Integer getCodigo() {
 		return codigo;
@@ -31,6 +33,16 @@ public class Aluno {
 	public void setCurso(String curso) {
 		this.curso = curso;
 	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	
 	
 	
 }
